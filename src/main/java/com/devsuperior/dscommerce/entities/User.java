@@ -121,6 +121,7 @@ public class User implements UserDetails {
 	public Set<Role> getRoles() {
 		return roles;
 	}
+	
 
 	public void addRole(Role role) {
     	roles.add(role);
@@ -135,6 +136,7 @@ public class User implements UserDetails {
 		return false;
 	}
 	
+		
 	@Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
